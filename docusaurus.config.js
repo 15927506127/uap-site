@@ -1,14 +1,14 @@
 module.exports = {
   title: 'Uap Site',
   tagline: 'The tagline of uap site',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://15927506127.github.io',
+  baseUrl: '/upa-site/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   themes:['@docusaurus/theme-live-codeblock'],
-  organizationName: 'U+', // Usually your GitHub org/user name.
-  projectName: 'uapweb', // Usually your repo name.
+  organizationName: '15927506127', // Usually your GitHub org/user name.
+  projectName: 'uap-site', // Usually your repo name.
   themeConfig: {
     hideableSidebar: true,
     navbar: {
