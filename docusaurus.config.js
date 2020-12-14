@@ -2,7 +2,7 @@ module.exports = {
   title: 'Uap Site',
   tagline: 'The tagline of uap site',
   url: 'https://15927506127.github.io',
-  baseUrl: '/upa-site/',
+  baseUrl: '/uap-site/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
