@@ -1,5 +1,5 @@
 module.exports = {
-  someSidebar: {
+  docs: {
     '接口文档说明':['specification'],
     '登录': ['login/login','login/organ-48'],
     '基础信息': ['base-user/profile','base-user/head-update','base-user/user-update','base-user/user-query',
@@ -10,5 +10,5 @@ module.exports = {
     '消息': ['message/message-change','message/message-num','message/message-query'],
     '角色权限':['roles/organ-33','roles/organ-34','roles/organ-35','roles/organ-40','roles/organ-43','roles/organ-49'],
     '行政区':['address/organ-36','address/organ-37','address/organ-38','address/organ-39']
-  },
+  }
 };

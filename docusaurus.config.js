@@ -24,9 +24,9 @@ module.exports = {
           label: 'API Docs',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {to: 'enviroment/support', activeBasePath: '/enviroment/',label: '产品信息', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/15927506127/uap-site',
           label: 'GitHub',
           position: 'right',
         },
@@ -41,28 +41,7 @@ module.exports = {
             {
               label: 'Style Guide',
               to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
+            }
           ],
         },
         {
@@ -74,14 +53,28 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/15927506127/uap-site',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with U+ UAP.`,
     },
   },
+  plugins:[
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'enviroment',
+        path: 'enviroment',
+        editUrl: 'https://github.com/facebook/docusaurus/edit/master/website/',
+        routeBasePath: 'enviroment',
+        sidebarPath: require.resolve('./sidebarsCommunity.js'),
+        showLastUpdateAuthor: true,
+        showLastUpdateTime: true,
+      },
+    ],
+  ],
   presets: [
     [
       '@docusaurus/preset-classic',
