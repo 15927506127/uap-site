@@ -7,6 +7,7 @@
 
 module.exports = {
   community: [
+    'uap-deploy',
     'support',
     'resources'
   ],
