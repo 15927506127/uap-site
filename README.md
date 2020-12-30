@@ -39,3 +39,8 @@ yarn install
 ```
 npm run deploy
 ```
+
+*查看部署情况地址
+```
+https://15927506127.github.io/uap-site
+```
