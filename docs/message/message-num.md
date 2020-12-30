@@ -113,6 +113,7 @@ BUSINESS_MESSAGE, PLAT_MESSAGE 结构与TENANT_MESSAGE相同
 |错误码|错误信息|说明|
 |----|----|----|
 |U000000|success.id|正常|
+|U|
 
 
 :::caution
