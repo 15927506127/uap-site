@@ -35,7 +35,7 @@ GET /v1/organization/user?accountId=
 ## data list 结构
 |属性|类型|说明|
 |----|----|----|
-|orgId|string|租户ID|
+|orgId|string|机构ID|
 |sopId|string||
 |name|string|-|
 |-|-|-|
