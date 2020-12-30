@@ -67,7 +67,7 @@ module.exports = {
       {
         id: 'enviroment',
         path: 'enviroment',
-        editUrl: 'https://github.com/facebook/docusaurus/edit/master/website/',
+        editUrl: 'https://github.com/15927506127/uap-site/tree/master/',
         routeBasePath: 'enviroment',
         sidebarPath: require.resolve('./sidebarsCommunity.js'),
         showLastUpdateAuthor: true,
@@ -83,7 +83,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://navi.united-imaging.com/UplusTestCollection/UCloud/_git/uap-site?path=',
+            'https://github.com/15927506127/uap-site/tree/master/',
         },
         blog: {
           showReadingTime: true,

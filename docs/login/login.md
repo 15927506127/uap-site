@@ -1,7 +1,7 @@
 ---
 id: login
 title: 企业微信登录认证
-sidebar_label: authorize
+sidebar_label: 企业微信登录认证
 slug: /
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';

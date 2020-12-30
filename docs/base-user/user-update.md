@@ -20,9 +20,9 @@ PUT /v1/account/userBase
 
 |属性|类型|默认值|必填|说明|
 |----|----|----|-----|----|
-|userBaseModifyData|object |-|是|基础信息对象|
+|param|object |-|是|基础信息对象|
  
- ## userBaseModifyData 结构
+ ## param 结构
  |属性|类型|说明|
 |----|----|----|
 |accountId|integer($int64)|联影云用户ID|
@@ -34,6 +34,14 @@ PUT /v1/account/userBase
 |name|string|姓名|
 |nickName|string|昵称|
 
+## 请求示例
+```
+export const updateUserBase = (data) => request({
+    method: 'PUT',
+    url: '/v1/account/userBase',
+    data: {...data}
+})
+```
 
 ## 返回值
 <b>Object</b>  

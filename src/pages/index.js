@@ -87,6 +87,44 @@ function Home() {
           </section>
         )}
       </main>
+      <div className="container text--center">
+            <div className="row">
+              <div className="col col--4 col--offset-2">
+                <img
+                  alt="Document Versioning"
+                  className={styles.featureImage}
+                  src={useBaseUrl('img/undraw_version_control.svg')}
+                />
+                <h2 className={clsx(styles.featureHeading)}>
+                  <text>Document Versioning</text>
+                </h2>
+                <p className="padding-horiz--md">
+                  <text>
+                    Support users on all versions of your project. Document
+                    versioning helps you keep documentation in sync with project
+                    releases.
+                  </text>
+                </p>
+              </div>
+              <div className="col col--4">
+                <img
+                  alt="Document Search"
+                  className={styles.featureImage}
+                  src={useBaseUrl('img/undraw_algolia.svg')}
+                />
+                <h2 className={clsx(styles.featureHeading)}>
+                  <text>Content Search</text>
+                </h2>
+                <p className="padding-horiz--md">
+                  <text>
+                    Make it easy for your community to find what they need in
+                    your documentation. We proudly support Algolia documentation
+                    search.
+                  </text>
+                </p>
+              </div>
+            </div>
+          </div>
     </Layout>
   );
 }
